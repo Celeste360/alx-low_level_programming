@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
- *
+ * main - main block
+ * Description: Use 'putchar' function to print the alphabet in lowercase.
  * Return: Always 0 (success)
  */
 
