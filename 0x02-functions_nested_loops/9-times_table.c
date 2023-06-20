@@ -35,4 +35,5 @@ int r, c, d;
 	}
 	_putchar('\n');
 	}
+
 }
