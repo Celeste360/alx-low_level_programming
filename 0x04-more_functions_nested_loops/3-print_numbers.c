@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers between 0 to 9
+ * print_numbers - prints numbers between 0 to 9
  * Return: no return
  */
 void print_numbers(void)
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (ch = 48; ch < 58; ch++)
 	{
-		_puchar(ch);
+		_pucthar(ch);
 	}
 	_putchar('\n');
 }
