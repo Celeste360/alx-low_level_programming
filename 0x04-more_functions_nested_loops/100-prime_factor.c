@@ -3,7 +3,7 @@
 
 /**
  * main - prints largest prime factors
- * Return: 0 Always
+ * Return: 0
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	long int n, fp;
 
 	n = 612852475143;
-	for (fp = 2; fp <= n; fp++)
+	for (fp = 2; <= n; fp++)
 	{
 		if (n % fp == 0)
 		{
@@ -19,6 +19,6 @@ int main(void)
 			fp--;
 		}
 	}
-	printf("%ld\n", fp);i
+	printf("%ld\n", fp);
 	return (0);
 }
