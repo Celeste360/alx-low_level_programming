@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print Fizz or Buzz or FizzBuzz
- * Return: 0 Always
+ * main - prints Fizz Buzz programm
+ * Return: 0
  */
 
 int main(void)
