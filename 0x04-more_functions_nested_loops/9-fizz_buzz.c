@@ -23,6 +23,7 @@ int main(void)
 		else if (n % 5 == 0)
 		{
 			printf(" Buzz");
+		}
 		else
 		{
 			printf(" %d", n);
