@@ -2,7 +2,7 @@
 
 /**
  * main - prints Fizz Buzz program
- * Return: Always 0
+ * Return: 0 Always
  */
 int main(void)
 {
