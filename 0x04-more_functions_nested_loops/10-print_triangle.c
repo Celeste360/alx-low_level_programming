@@ -5,7 +5,7 @@
  * @size: number of lines.
  * Return: no return
  */
-void print-triangle(int size)
+void print_triangle(int size)
 {
 	int i, j;
 
