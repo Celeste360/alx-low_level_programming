@@ -1,1 +1,1 @@
-This project's aim is to learn how to debug in C language
+In this project I learn debugging in C. language
