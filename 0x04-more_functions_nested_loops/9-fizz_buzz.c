@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints fizz and buzz for multiples of 3 and 5 respectively
+ * main - prints Fizz Buzz program
  * Return: Always 0
  */
 int main(void)
