@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts-half - print second half of a string
+ * puts_half - print second half of a string
  * @str: the string to print
  * Description: If odd number of chars, print (length - 1) / 2
  * Return: void
