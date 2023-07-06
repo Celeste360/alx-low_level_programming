@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - returns the value of a raised to the power of b
- * a: base
- * b: exponent
+ * @a: base
+ * @b: exponent
  * Return: value of exponentiation
  */
 int _pow_recursion(int a, int b)
