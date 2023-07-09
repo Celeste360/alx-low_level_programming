@@ -1,0 +1,1 @@
+In this project, i learnt how to use arguments passed to Cfunctions with argc and argv and also how to make use of __attribute__((unused)) or (void) to compile functions with unused variables or parameters.
