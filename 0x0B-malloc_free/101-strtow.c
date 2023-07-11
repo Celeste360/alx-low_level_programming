@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.h>si
 #include "main.h"
 
 /**
@@ -41,7 +41,7 @@ char **strtow(char *str)
 
 	while (*(str + len))
 		len++;
-	words = count_word(str);
+	words = count_words(str);
 	if (words == 0)
 		return (NULL);
 
