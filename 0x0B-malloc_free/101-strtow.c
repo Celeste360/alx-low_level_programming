@@ -7,7 +7,7 @@
  *
  * Return: number of words
  */
-int count_words(char *s)
+int count_word(char *s)
 {
 	int flag, c, w;
 
@@ -28,7 +28,7 @@ int count_words(char *s)
 	return (w);
 }
 /**
- * **strtow - splits a string into words
+ * **strtow - splits into words
  * @str: string to split
  *
  * Return: pointer to an array of strings (success)
@@ -36,12 +36,12 @@ int count_words(char *s)
  */
 char **strtow(char *str)
 {
-	char **matrix, tmp;
+	char **matrix, *tmp;
 	int i, k = 0, len = 0, words, c = 0, start, end;
 
 	while (*(str + len))
 		len++;
-	words = count_words(str);
+	words = count_word(str);
 	if (words == 0)
 		return (NULL);
 
