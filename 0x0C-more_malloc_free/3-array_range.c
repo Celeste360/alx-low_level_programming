@@ -10,7 +10,7 @@
  * if malloc fails, return NULL
  */
 int *array_range(int min, int max)
-| {
+{
 	int *ar;
 	int i;
 
