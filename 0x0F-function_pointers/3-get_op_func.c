@@ -3,7 +3,7 @@
 /**
  * get_op_func - selects the correct function to perform
  * the operation asked by the user
- * @a: char operator
+ * @s: char operator
  *
  * Return: pointer to the function that corresponds to the operator
  */
@@ -21,7 +21,7 @@ int (*get_op_func(char *a))(int, int)
 
 	while (i < 10)
 	{
-		if (a[0] == ops->op[i])
+		if (s[0] == ops->op[i])
 			break;
 		i++;
 	}
