@@ -1,1 +1,1 @@
-I learnt how to manipulate bits and use the bitwise operators >>, <<, &, | and ^ in C in this project
+I learnt in this project how to manipulate bits and use the biwise operators >>, <<, &, |, and ^ in C.
